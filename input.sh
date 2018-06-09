@@ -1,4 +1,8 @@
 #!/bin/sh
+
+#show hidden files
+defaults write com.apple.finder AppleShowAllFiles YES
+
 # install homebrew package manager
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
