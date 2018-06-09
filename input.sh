@@ -12,6 +12,12 @@ ln -s ~/.vimrc ~/.config/nvim/init.vim
 # zsh > bash. jk, who cares? you shouldn't :)
 brew install zsh
 
+# change shell
+chsh -s /bin/zsh
+
+# install oh my zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 # install iterm 2
 brew cask install iterm2
 
