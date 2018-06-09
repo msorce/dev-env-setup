@@ -14,6 +14,10 @@ brew install neovim
 # symlink vim -> nvim configs
 ln -s ~/.vim ~/.config/nvim
 ln -s ~/.vimrc ~/.config/nvim/init.vim
+# pip
+sudo easy_install pip
+pip2 install --user neovim
+pip3 install --user neovim
 
 # zsh > bash. jk, who cares? you shouldn't :)
 brew install zsh
