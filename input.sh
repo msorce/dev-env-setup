@@ -40,5 +40,7 @@ brew cask install iterm2
 defaults write -g InitialKeyRepeat -int 5
 defaults write -g KeyRepeat -int 1
 
+# setup programming font
+cp Input-Regular_(InputMonoNarrow-Light).ttf /Library/Fonts
 # install spotify
 brew cask install spotify
