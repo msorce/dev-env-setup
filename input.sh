@@ -39,3 +39,6 @@ brew cask install iterm2
 # fast key repeats
 defaults write -g InitialKeyRepeat -int 5
 defaults write -g KeyRepeat -int 1
+
+# install spotify
+brew cask install spotify
