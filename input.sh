@@ -36,6 +36,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # install iterm 2
 brew cask install iterm2
 
+# install svn 
+brew install subversion
+
 # fast key repeats
 defaults write -g InitialKeyRepeat -int 5
 defaults write -g KeyRepeat -int 1
