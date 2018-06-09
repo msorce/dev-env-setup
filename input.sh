@@ -2,6 +2,12 @@
 # install homebrew package manager
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# install dotfiles
+git clone https://github.com/msorce/.dotfiles.git
+
+# symlink configs
+sh ~/.dotfiles/setup.sh
+
 # install neovim
 brew install neovim
 
@@ -14,6 +20,15 @@ brew install zsh
 
 # change shell
 chsh -s /bin/zsh
+
+#install tmux
+brew install tmux
+
+# install htop
+brew install htop
+
+# install cmatrix
+brew install cmatrix
 
 # install oh my zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
