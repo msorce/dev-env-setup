@@ -3,6 +3,9 @@
 #show hidden files
 defaults write com.apple.finder AppleShowAllFiles YES
 
+# sass
+sudo gem install sass
+
 # install homebrew package manager
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
